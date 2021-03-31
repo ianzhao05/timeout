@@ -1,0 +1,32 @@
+.container {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  width: 94%;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 480px) {
+  .container {
+    width: 450px;
+    padding-left: calc(100vw - 100%);
+  }
+}
+
+.top {
+  composes: container;
+  top: 12px;
+}
+
+.bottom {
+  composes: container;
+  bottom: 12px;
+}
+
+.bottomAbove {
+  composes: container;
+  bottom: 100px;
+}

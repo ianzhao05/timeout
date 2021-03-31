@@ -1,0 +1,7 @@
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding-left: calc(100vw - 100%);
+  }
+}

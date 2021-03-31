@@ -1,0 +1,147 @@
+.section {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 8px;
+}
+
+.sectionLink {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: var(--dark);
+  border: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.editIcon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  fill: currentColor;
+}
+
+.sectionLink:hover > .editIcon {
+  opacity: 1;
+}
+
+.numberInput {
+  width: 100%;
+  min-width: 0;
+  height: 32px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 0 8px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.numberInput:focus {
+  outline: none;
+  border: 3px solid var(--blue-neutral);
+  padding: 0 6px;
+}
+
+.numberInput:disabled {
+  background-color: #f0f0f0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.numberInputThird {
+  composes: numberInput;
+  width: calc(33.33% - 8px);
+}
+
+.inputWithText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputSuffix {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.exHeader {
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.set {
+  position: relative;
+  padding: 8px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.upper {
+  background-color: var(--blue-light);
+  color: var(--blue-dark);
+}
+
+.lower {
+  background-color: var(--green-light);
+  color: var(--green-dark);
+}
+
+.core {
+  background-color: var(--red-light);
+  color: var(--red-dark);
+}
+
+.cardio {
+  background-color: var(--yellow-light);
+  color: var(--yellow-dark);
+}
+
+.other {
+  background-color: var(--purple-light);
+  color: var(--purple-dark);
+}
+
+.rest {
+  background-color: var(--dark-light);
+}
+
+.deleteButton {
+  background-color: transparent;
+  opacity: 0.2;
+  transition: opacity 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  opacity: 1;
+}
+
+.dragHandle {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.dragHandle:active {
+  opacity: 1;
+}
+
+.dragIcon {
+  width: 16px;
+  height: 16px;
+}

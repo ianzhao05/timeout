@@ -1,0 +1,21 @@
+.tableHeader {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.smallHeader {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.clearButton {
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+}

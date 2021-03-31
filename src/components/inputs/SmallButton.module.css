@@ -1,0 +1,68 @@
+.button {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  box-sizing: content-box;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:active {
+  filter: saturate(80%);
+}
+
+.buttonLarger {
+  composes: button;
+  padding: 12px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.iconFlipped {
+  composes: icon;
+  transform: rotate(180deg);
+}
+
+.light {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.dark {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.blue {
+  background-color: var(--blue);
+  color: var(--light);
+}
+
+.green {
+  background-color: var(--green);
+  color: var(--light);
+}
+
+.red {
+  background-color: var(--red);
+  color: var(--light);
+}
+
+.yellow {
+  background-color: var(--yellow);
+  color: var(--dark);
+}
+
+.purple {
+  background-color: var(--purple);
+  color: var(--light);
+}

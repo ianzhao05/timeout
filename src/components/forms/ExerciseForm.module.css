@@ -1,0 +1,123 @@
+.radio {
+  position: relative;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.radioLabel {
+  display: block;
+  height: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.radioLabel:before,
+.radioLabel:after {
+  content: "";
+  position: absolute;
+  background-color: #eeeeee;
+}
+
+.radioLabel:after {
+  right: 8px;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  transition: 0.1s background-color ease-in-out;
+}
+
+.radioLabel:before {
+  right: 15px;
+  top: 15px;
+  width: 6px;
+  height: 6px;
+  z-index: 2;
+  border-radius: 4px;
+}
+
+.radioButton:checked + .radioLabel:after {
+  background-color: var(--dark);
+  border: none;
+}
+
+.radioButton:focus + .radioLabel:after {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.radioButton {
+  width: 100%;
+  opacity: 0;
+  appearance: none;
+  position: absolute;
+  cursor: pointer;
+}
+
+.radioLabelBlue {
+  composes: radioLabel;
+}
+
+.radioLabelBlue:before,
+.radioLabelBlue:after {
+  background-color: var(--blue-light);
+}
+
+.radioButton:checked + .radioLabelBlue:after {
+  background-color: var(--blue);
+}
+
+.radioLabelGreen {
+  composes: radioLabel;
+}
+
+.radioLabelGreen:before,
+.radioLabelGreen:after {
+  background-color: var(--green-light);
+}
+
+.radioButton:checked + .radioLabelGreen:after {
+  background-color: var(--green);
+}
+
+.radioLabelRed {
+  composes: radioLabel;
+}
+
+.radioLabelRed:before,
+.radioLabelRed:after {
+  background-color: var(--red-light);
+}
+
+.radioButton:checked + .radioLabelRed:after {
+  background-color: var(--red);
+}
+
+.radioLabelYellow {
+  composes: radioLabel;
+}
+
+.radioLabelYellow:before,
+.radioLabelYellow:after {
+  background-color: var(--yellow-light);
+}
+
+.radioButton:checked + .radioLabelYellow:after {
+  background-color: var(--yellow);
+}
+
+.radioLabelPurple {
+  composes: radioLabel;
+}
+
+.radioLabelPurple:before,
+.radioLabelPurple:after {
+  background-color: var(--purple-light);
+}
+
+.radioButton:checked + .radioLabelPurple:after {
+  background-color: var(--purple);
+}

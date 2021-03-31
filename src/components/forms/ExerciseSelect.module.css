@@ -1,0 +1,28 @@
+.container {
+  background-color: #ffffff;
+  height: 80%;
+  width: 80%;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.header {
+  font-size: 18px;
+  padding: 8px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 8px;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 4px;
+}

@@ -1,0 +1,87 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--dark);
+
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  cursor: pointer;
+
+  transition: background-color 0.15s ease, filter 0.15s ease;
+}
+.button:active {
+  filter: brightness(95%);
+  transform: translateY(1px);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-right: 12px;
+}
+
+.dark {
+  color: var(--dark);
+}
+.dark:hover {
+  background-color: var(--dark-light);
+}
+
+.blue {
+  color: var(--blue);
+}
+.blue:hover {
+  background-color: var(--blue-light);
+}
+
+.red {
+  color: var(--red);
+}
+.red:hover {
+  background-color: var(--red-light);
+}
+
+.inverted:hover {
+  filter: saturate(0.85);
+}
+
+.inverted:active {
+  filter: saturate(0.7);
+}
+
+.darkInverted {
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+.blueInverted {
+  background-color: var(--blue);
+  color: #ffffff;
+}
+
+.redInverted {
+  background-color: var(--red);
+  color: #ffffff;
+}
+
+.bigText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 370px) {
+  .shrink {
+    font-size: 14px;
+  }
+}

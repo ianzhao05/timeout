@@ -1,0 +1,69 @@
+.set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  height: 48px;
+}
+
+.section {
+  margin-top: 24px;
+}
+
+.sectionInfo {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sectionDetails {
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+.setName {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.setInfo {
+  font-size: 14px;
+  text-align: right;
+}
+
+.upper {
+  background-color: var(--blue-light);
+  color: var(--blue-dark);
+}
+
+.lower {
+  background-color: var(--green-light);
+  color: var(--green-dark);
+}
+
+.core {
+  background-color: var(--red-light);
+  color: var(--red-dark);
+}
+
+.cardio {
+  background-color: var(--yellow-light);
+  color: var(--yellow-dark);
+}
+
+.other {
+  background-color: var(--purple-light);
+  color: var(--purple-dark);
+}
+
+.rest {
+  background-color: var(--dark-light);
+}

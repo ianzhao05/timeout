@@ -1,0 +1,63 @@
+{
+  "name": "timeout",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-hook/size": "^2.1.1",
+    "@types/lodash": "^4.14.168",
+    "@types/nanoid": "^2.1.0",
+    "@types/react": "^17.0.3",
+    "@types/react-beautiful-dnd": "^13.0.0",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/yup": "^0.29.11",
+    "fontsource-open-sans": "^3.0.9",
+    "formik": "^2.2.6",
+    "idb": "^6.0.0",
+    "nanoid": "^3.1.22",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.2",
+    "react-fast-compare": "^3.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.3",
+    "typescript": "^4.2.3",
+    "use-elapsed-time": "^2.1.7",
+    "web-vitals": "^1.1.1",
+    "workbox-background-sync": "^6.1.2",
+    "workbox-broadcast-update": "^6.1.2",
+    "workbox-cacheable-response": "^6.1.2",
+    "workbox-core": "^6.1.2",
+    "workbox-expiration": "^6.1.2",
+    "workbox-google-analytics": "^6.1.2",
+    "workbox-navigation-preload": "^6.1.2",
+    "workbox-precaching": "^6.1.2",
+    "workbox-range-requests": "^6.1.2",
+    "workbox-routing": "^6.1.2",
+    "workbox-strategies": "^6.1.2",
+    "workbox-streams": "^6.1.2",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

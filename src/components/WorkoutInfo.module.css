@@ -1,0 +1,32 @@
+.topContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topContainer::after {
+  content: "";
+  flex: 1;
+}
+
+.topButton {
+  flex: 1;
+}
+
+.topContent {
+  text-align: center;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.details {
+  font-style: 14px;
+  opacity: 0.75;
+}
+
+.editButton {
+  margin-top: 32px;
+}

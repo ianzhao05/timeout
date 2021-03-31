@@ -1,0 +1,53 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4px;
+
+  color: var(--dark);
+  text-decoration: none;
+
+  border-radius: 8px;
+}
+
+.largeLink {
+  composes: link;
+  width: max(56px, 25%);
+  height: 56px;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.smallLink {
+  composes: link;
+  width: max(30%, 112px);
+  height: 32px;
+  flex-direction: row;
+  font-size: 16px;
+}
+
+.largeSelected {
+  composes: largeLink;
+  color: var(--blue);
+  background-color: var(--blue-light);
+  font-weight: bold;
+}
+
+.smallSelected {
+  composes: smallLink;
+  color: var(--blue);
+  background-color: var(--blue-light);
+  font-weight: bold;
+}
+
+.largeIcon {
+  height: 36px;
+  width: 36px;
+  fill: currentColor;
+}
+
+.smallIcon {
+  height: 24px;
+  width: 24px;
+  fill: currentColor;
+}

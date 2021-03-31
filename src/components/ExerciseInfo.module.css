@@ -1,0 +1,13 @@
+.topContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content {
+  margin-left: 16px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+}

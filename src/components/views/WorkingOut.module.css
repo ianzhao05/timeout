@@ -1,0 +1,50 @@
+.topContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topContainer::after {
+  content: "";
+  flex: 1;
+}
+
+.topButton {
+  flex: 1;
+}
+
+.topContent {
+  text-align: center;
+}
+
+.workoutName {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sectionName {
+  font-size: 18px;
+}
+
+.details {
+  font-style: 14px;
+  opacity: 0.75;
+}
+
+.exerciseName {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.complete {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 32px 8px;
+}
+
+.finishButton {
+  margin-top: 8px;
+}

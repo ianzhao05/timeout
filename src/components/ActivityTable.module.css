@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  overflow: visible;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 0;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.link {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.workout {
+  background-color: #ffffff;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 12px 0;
+}
+.upper {
+  background-color: var(--blue-light);
+  color: var(--blue-dark);
+}
+.lower {
+  background-color: var(--green-light);
+  color: var(--green-dark);
+}
+.core {
+  background-color: var(--red-light);
+  color: var(--red-dark);
+}
+.cardio {
+  background-color: var(--yellow-light);
+  color: var(--yellow-dark);
+}
+.other {
+  background-color: var(--purple-light);
+  color: var(--purple-dark);
+}
+
+.none {
+  margin: 8px 0;
+}
+
+.icon {
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+.row:hover > .icon {
+  opacity: 1;
+}

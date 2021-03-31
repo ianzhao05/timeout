@@ -1,0 +1,13 @@
+.reps {
+  font-size: 72px;
+  font-weight: bold;
+  min-width: 2em;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+}

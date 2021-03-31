@@ -1,0 +1,64 @@
+@import-normalize;
+
+body {
+  margin: 0;
+  background-color: var(--light);
+  color: var(--dark);
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark: #2a2b30;
+  --dark-light: #edeff2;
+  --light: #fafcff;
+  --blue: #0d47f5;
+  --blue-neutral: #718bff;
+  --blue-light: #e9eefc;
+  --blue-dark: #0d33aa;
+  --green: #27bfb3;
+  --green-light: #e8fcfa;
+  --green-dark: #196d66;
+  --red: #f0447e;
+  --red-light: #fff2f8;
+  --red-dark: #a92552;
+  --yellow: #ffbb38;
+  --yellow-light: #fdf6e4;
+  --yellow-dark: #88621c;
+  --purple: #db3edf;
+  --purple-light: #f6e5fb;
+  --purple-dark: #9c209f;
+}
+
+.Toastify__toast-container--top-center {
+  top: 1.5em;
+}
+
+.Toastify__toast {
+  border-radius: 8px;
+  min-height: 52px;
+  padding: 4px 16px;
+  font-weight: bold;
+}
+
+.Toastify__toast--success {
+  background-color: var(--green-light);
+  color: var(--green-dark);
+}
+
+.Toastify__toast--error {
+  background-color: var(--red-light);
+  color: var(--red-dark);
+}
