@@ -2,7 +2,7 @@ import Container from "../layout/Container";
 import Fixed from "../layout/Fixed";
 import Spacer from "../layout/Spacer";
 import WorkoutsMenu from "../menus/WorkoutsMenu";
-import { Route, Switch, useRouteMatch } from "react-router-dom";
+import { Redirect, Route, Switch, useRouteMatch } from "react-router-dom";
 import WorkoutForm from "../forms/WorkoutForm";
 import ExerciseForm from "../forms/ExerciseForm";
 import Exercises from "./Exercises";
@@ -38,6 +38,9 @@ const Activities = () => {
           </Route>
           <Route exact path={`${path}/exercises`}>
             <Exercises url={url} />
+          </Route>
+          <Route exact path={path}>
+            <Redirect to={`${path}/workouts`} />
           </Route>
         </Switch>
       </Container>

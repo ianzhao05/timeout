@@ -8,7 +8,7 @@ const Menu: React.FC = () => {
       <MenuLink
         text="Activities"
         variant="large"
-        to="/activities/workouts"
+        to="/activities"
         icon="activity"
       />
       <MenuLink text="Start" variant="large" to="/start" icon="run" />
