@@ -1,5 +1,6 @@
 import { minSecToString, secToMinSec, useAllLogs } from "../../utils";
 import Container from "../layout/Container";
+import Spacer from "../layout/Spacer";
 import WorkoutLog from "../WorkoutLog";
 import styles from "./History.module.css";
 
@@ -22,6 +23,7 @@ const History = () => {
       ) : (
         <div className={styles.log}>No workouts completed yet!</div>
       )}
+      <Spacer type="bottom" />
     </Container>
   );
 };
